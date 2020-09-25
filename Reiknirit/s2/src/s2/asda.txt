@@ -1,0 +1,10 @@
+if (x-i > 3) {
+                        for (int t = 0; t < points.length; t++) {
+                            if (points[t] == ar[0]) {
+                                index = t;
+                                break;
+                            }
+                        }
+                        points[index] = points[p];
+                        points[p] = points[index];
+                    }
